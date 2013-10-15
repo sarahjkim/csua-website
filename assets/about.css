@@ -94,11 +94,11 @@ img {
     margin-top: 10px;
 }
 #officerpicture {
-    height: 343px;
+    height: 306px;
 }
 #block4 {
-    margin-top: 25px;
     float: right;
+    margin-top: 10px;
 }
 .linkheader {
     margin-bottom: 5px;
@@ -116,7 +116,7 @@ img {
     text-align: center;
     margin-top: 20px;
 }
-#tirumari {
+.credit {
     color: #8dba33;
     display: inline;
 }
