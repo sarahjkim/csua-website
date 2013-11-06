@@ -42,6 +42,7 @@ body {
 a {
     text-decoration: none;
     cursor: pointer;
+    color: black;
 }
 .header-link {
     color: white;
