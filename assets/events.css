@@ -132,8 +132,16 @@ img {
     color: white;
     margin-left: 10px;
 }
-.hackathon {
+#hackathon {
     height: 230px;
+    margin: 7px 0px;
+}
+#codingforgrub {
+    height: 181px;
+    margin: 7px 0px;
+}
+#hackplusplus {
+    height: 224px;
     margin: 7px 0px;
 }
 #info {
