@@ -147,11 +147,47 @@ img {
 #info {
     display: none;
 }
+#zynga {
+    height: 195px;
+    margin: 7px 0px;
+}
+#industrypanel {
+    height: 140px;
+    margin: 7px 0px;
+}
+#squareworkshop {
+    height: 238px;
+    margin: 7px 0px;
+}
+#jack {
+    height: 244px;
+    margin: 7px 0px;
+}
+#startupfair2013 {
+    height: 170px;
+    margin: 7px 0px;
+}
+#threem {
+    height: 242px;
+    margin: 7px 0px;
+}
 #social {
     display: none;
 }
+#welcomebbq {
+    height: 242px;
+    margin: 7px 0px;
+}
+#boardgamenight {
+    height: 255px;
+    margin: 7px 0px;
+}
 #meeting {
     display: none;
+}
+#gmone {
+    height: 224px;
+    margin: 7px 0px;
 }
 #block4 {
     float: right;
