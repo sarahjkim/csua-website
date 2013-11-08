@@ -48,15 +48,10 @@ $(document).ready(function(){
     });
 
     $('.photoone').hover(function() {
-        /*$(this).css({'display': 'none'});
-        $(this).next().css({'display': 'inline-block'});*/
-        $(this).hide();
-        $(this).next().show();
+        $(this).next().fadeIn(500);
+        $(this).next().css({'z-index': '3'});
     }, function() {
-        $(this).show();
-        $(this).next().hide();
-        /*$(this).next().css({'display': 'none'});
-        $(this).css({'display': 'inline-block'});*/
+        $(this).next().fadeOut(500);
     });
 
 });

@@ -9,6 +9,7 @@ body {
     background-color: black;
     position: fixed;
     width: 100%;
+    z-index: 5;
 }
 #headerbar {
     width: 1000px;
@@ -88,11 +89,15 @@ img {
     height: 250px;
     display: inline-block;
     float: left;
+    position: relative;
+    z-index: 2;
 }
 .phototwo {
     height: 250px;
     display: none;
     float: left;
+    position: absolute;
+    z-index: 1;
 }
 .singlephoto {
     height: 250px;
