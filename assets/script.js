@@ -48,10 +48,14 @@ $(document).ready(function(){
     });
 
     $('.photoone').hover(function() {
-        $(this).next().fadeIn(500);
         $(this).next().css({'z-index': '3'});
+        $(this).next().fadeIn(400);
     }, function() {
-        $(this).next().fadeOut(500);
+    });
+
+    $('.phototwo').hover(function() {
+    }, function() {
+        $(this).stop().fadeOut(400);
     });
 
 });
