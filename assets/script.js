@@ -13,9 +13,9 @@ $(document).ready(function(){
     });
 
     $('.link').hover(function() {
-        $(this).css({'color': '#7fa958'});
+        $(this).css({'color': 'grey'});
     }, function() {
-        $(this).css({'color': '#629632'});
+        $(this).css({'color': 'black'});
     });
 
     $('.event-name').hover(function() {
@@ -28,6 +28,12 @@ $(document).ready(function(){
         $(this).css({'color': '#7fa958'});
     }, function() {
         $(this).css({'color': '#629632'});
+    });
+
+    $('.creditgrey').hover(function() {
+        $(this).css({'color': 'black'});
+    }, function() {
+        $(this).css({'color': 'grey'});
     });
 
     $('.tab').click(function() {
