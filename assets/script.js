@@ -47,4 +47,16 @@ $(document).ready(function(){
         $(panel_id).show();
     });
 
+    $('.photoone').hover(function() {
+        /*$(this).css({'display': 'none'});
+        $(this).next().css({'display': 'inline-block'});*/
+        $(this).hide();
+        $(this).next().show();
+    }, function() {
+        $(this).show();
+        $(this).next().hide();
+        /*$(this).next().css({'display': 'none'});
+        $(this).css({'display': 'inline-block'});*/
+    });
+
 });
