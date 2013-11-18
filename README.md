@@ -1,6 +1,6 @@
 ## Website
 
-These are the website files for the UC Berkeley Computer Science Undergraduate Association ([CSUA](https://csua.berkeley.edu)).
+These are the website files for the UC Berkeley Computer Science Undergraduate Association ([CSUA](http://csua.berkeley.edu/)).
 
 ## Website Structure
 
