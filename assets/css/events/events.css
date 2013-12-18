@@ -140,11 +140,11 @@ img {
 #past-semesters {
     margin-top: 30px;
 }
-.linkheader {
+.greylinkheader {
     margin-bottom: 5px;
     font-size: 18px;
     font-weight: 500;
-    color: #629632;
+    color: grey;
 }
 #footer {
     text-align: center;

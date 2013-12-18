@@ -25,6 +25,12 @@ $(document).ready(function(){
         $(this).css({'color': '#629632'});
     });
 
+    $('.greylinkheader').hover(function() {
+        $(this).css('color', '#333');
+    }, function() {
+        $(this).css('color', 'grey');
+    });
+
     $('.link').hover(function() {
         $(this).css({'color': 'grey'});
     }, function() {
