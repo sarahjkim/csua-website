@@ -57,7 +57,7 @@ $(document).ready(function(){
     $('#panels a').click(function() {
         var panel_id = $(this).attr('href');
         $('.panel').hide();
-        $(panel_id).show();
+        $(panel_id).show(400);
     });
 
     $('.photoone').hover(function() {
