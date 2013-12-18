@@ -6,6 +6,19 @@ $(document).ready(function(){
 		$(this).css({'color': 'white'});
 	});
 */
+
+    $('#about-header').hover(function() {
+        $('#about').show();
+    }, function() {
+        $('#about').hide();
+    });
+
+    $('.dropdownitem').hover(function() {
+        $(this).css({'background-color': '#555'});
+    }, function() {
+        $(this).css({'background-color': '#333'});
+    });
+
     $('.linkheader').hover(function() {
         $(this).css({'color': '#7fa958'});
     }, function() {
