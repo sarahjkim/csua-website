@@ -100,9 +100,6 @@ img {
     color: #629632;
     margin: 10px 0px 3px;
 }
-#block2 {
-    float: right;
-}
 .event {
     margin-top: 10px;
 }
@@ -126,9 +123,6 @@ img {
 .gradpanel {
     height: 133px;
     margin: 7px 0px;
-}
-#past-events {
-    margin-top: 30px;
 }
 #panels {
     margin-top: 20px;
