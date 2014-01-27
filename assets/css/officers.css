@@ -138,6 +138,15 @@ img {
     font-weight: 300;
     margin-top: 10px;
 }
+#past-officers {
+    margin-top: 20px;
+}
+.greylinkheader {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    color: grey;
+}
 #footer {
     text-align: center;
     margin-top: 20px;
